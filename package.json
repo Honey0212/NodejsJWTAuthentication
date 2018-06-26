@@ -1,0 +1,38 @@
+{
+  "name": "loginproject",
+  "version": "1.0.0",
+  "description": "Project to authenticate/register a user via nodejs and mysql",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honey0212/NodejsJWTAuthentication.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Honey Chauhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Honey0212/NodejsJWTAuthentication/issues"
+  },
+  "homepage": "https://github.com/Honey0212/NodejsJWTAuthentication#readme"
+}
