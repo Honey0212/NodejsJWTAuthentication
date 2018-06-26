@@ -6,7 +6,7 @@ var connection = mysql.createPool({
     password: 'UnzuUxJ4lQ',
     database: 'sql12244770',
     port: 3306,
-    debug: true,
+    debug: false,
     multipleStatements: true
 });
 module.exports.connection = connection;
