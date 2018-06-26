@@ -5,7 +5,7 @@ CREATE TABLE users (
   first_name               		varchar(100) NOT NULL,
   last_name               		varchar(100),
   email						    varchar(100) NOT NULL UNIQUE,
-  password		              	varchar(50),
+  password		              	varchar(250),
   created             			datetime NOT NULL
 );
 
@@ -17,7 +17,7 @@ CREATE TABLE user_status (
   id                 			int(11) PRIMARY KEY AUTO_INCREMENT,
   userId               			int(11) NOT NULL UNIQUE,
   token		               		varchar(500),
-  refresh_token				    varchar(100),
+  refresh_token				    varchar(500),
   status		              	varchar(50)
 );
 
