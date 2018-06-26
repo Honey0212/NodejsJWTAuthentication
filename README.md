@@ -38,6 +38,10 @@ npm install
 
 ### Starting the server
 
+* Create a schema in MySQL and run tables.sql to create the required tables.
+* Make changes to DAO/UserDAO.js and add the appropriate information about the database.
+* Start the server.
+
 ```
 node server.js
 ```
