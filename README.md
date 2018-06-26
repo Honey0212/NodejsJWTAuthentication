@@ -12,8 +12,15 @@ What things you need to install the software and how to install them
 
 ```
 Node.js setup
+https://nodejs.org/en/download/
+```
+```
 Git
+https://desktop.github.com/
+```
+```
 MySQL
+https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-5.7.22.1.msi
 ```
 
 ### Installing
@@ -28,6 +35,8 @@ cd NodejsJWTAuthentication
 ```
 npm install
 ```
+
+### Starting the server
 
 ```
 node server.js
